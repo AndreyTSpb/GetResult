@@ -20,7 +20,7 @@ public class FirstActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first);
 
-        textView = findViewById(R.id.textView);
+        textView = findViewById(R.id.textResult);
     }
 
     public void onClick(View view) {
