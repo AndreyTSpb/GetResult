@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/stringBox"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/but1"
+        android:text="@string/access_allow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButton1Click"/>
+    <Button
+        android:id="@+id/but2"
+        android:text="Запретить доступ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButton2Click"/>
+    <Button
+        android:id="@+id/but3"
+        android:text="Возврат не действителен"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButton3Click"/>
+    <Button
+        android:id="@+id/but4"
+        android:text="@string/cancel_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCancelClick"/>
+</LinearLayout>

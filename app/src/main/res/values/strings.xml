@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GetResult</string>
+    <string name="enter_string">Enter String:</string>
+    <string name="send_button">Send</string>
+    <string name="access_allow">Дать доступ</string>
+    <string name="cancel_button">Отмена</string>
+</resources>
